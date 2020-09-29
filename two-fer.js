@@ -3,8 +3,8 @@
 // convenience to get you started writing code faster.
 //
 
-export const twoFer = (name) => {
-  return `One for ${name || 'you'}, one for me.`;
+export const twoFer = (name = 'you') => {
+  return `One for ${name}, one for me.`;
 };
 // you're setting a default value for the input
 // the function will return a value that it can coerce to true
